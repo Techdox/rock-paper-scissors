@@ -1,10 +1,5 @@
 import random
 
-userChoice = input("Select [R]ock, [P]aper, or [S]cissors: ").lower()
-print(f"You entered: {userChoice}")
-rps = ["r", "p", "s"]
-choice = random.choice(rps)
-
 def main():
     if userChoice == "r":
         choiceR()
@@ -45,6 +40,11 @@ def choiceS():
     else:
         print("Error.")
 
-main()
+if __name__ == "__main__":
+    while True:
+        rps = ["r", "p", "s"]
+        choice = random.choice(rps)
+        userChoice = input("Select [R]ock, [P]aper, or [S]cissors: ").lower()
+        main()
 
         
