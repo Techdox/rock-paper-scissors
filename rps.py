@@ -12,6 +12,8 @@ def main():
         choiceP()
     elif userChoice == "s":
         choiceS()
+    else:
+        print("Error.")
 
 def choiceR():
     if userChoice == "r" and choice == "r":
