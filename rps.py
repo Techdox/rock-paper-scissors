@@ -11,31 +11,31 @@ def main():
         print("Error.")
 
 def choiceR():
-    if userChoice == "r" and choice == "r":
+    if choice == "r":
         print("You Tied")
-    elif userChoice == "r" and choice == "p":
+    elif choice == "p":
         print("You lose")
-    elif userChoice == "r" and choice == "s":
+    elif choice == "s":
         print("You Win!")
     else:
         print("Error.")
 
 def choiceP():
-    if userChoice == "p" and choice == "p":
+    if choice == "p":
         print("You Tied")
-    elif userChoice == "p" and choice == "s":
+    elif choice == "s":
         print("You lose")
-    elif userChoice == "p" and choice == "r":
+    elif choice == "r":
         print("You Win!")
     else:
         print("Error.")
 
 def choiceS():
-    if userChoice == "s" and choice == "s":
+    if choice == "s":
         print("You Tied")
-    elif userChoice == "s" and choice == "r":
+    elif choice == "r":
         print("You lose")
-    elif userChoice == "s" and choice == "p":
+    elif choice == "p":
         print("You Win!")
     else:
         print("Error.")
